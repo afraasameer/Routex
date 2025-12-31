@@ -1,0 +1,116 @@
+.header{
+   background-color: white;
+}
+.header-body{
+   background-image:"url(Images/Banner.png)";
+   justify-content: space-between;
+   text-align: center;
+   padding: 40px 40px;
+   color: white;
+   
+}
+
+ nav{
+      background-color: white;
+      color: rgb(38, 109, 38);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    /* Left section */
+    .nav-left {
+      display: flex;
+      align-items: center;
+      color: green;
+    }
+
+    .nav-left img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .company-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Center navigation */
+    .nav-center {
+      display: flex;
+      gap: 20px;
+      
+    }
+
+    .nav-center a {
+      color: green;
+      text-decoration: none; /* removes underline */
+      padding: 8px 12px;
+    }
+
+    .nav-center a:hover {
+      background-color: #575757;
+    }
+
+    /* Dropdown-style links */
+    .nav-center a.dropdown::after {
+      content: " ▼"; /* arrow indicator */
+      font-size: 12px;
+    }
+
+    /* Right section */
+    .nav-right {
+      display: flex;
+      align-items: center;
+      color: green;
+    }
+
+    .nav-right img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .nav-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .nav-text span:first-child {
+      font-weight: bold;
+    }
+
+.header-body{
+   background-image: url(Images/Banner.png);
+}
+
+footer{
+   background-color: rgba(6, 81, 6, 0.936);
+   color: #f2f2f2;
+   padding: 10px 20px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-left{
+   font-size: 14px;
+}
+.footer-right{
+   display: flex;
+   gap: 20px;
+}
+.footer-right a{
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+}
+button{
+   border-radius: 20px;
+   height: 30px;
+   color: white;
+   background-color: green;
+   border-color: green;
+}
